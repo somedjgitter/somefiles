@@ -9,7 +9,7 @@ pipeline {
         stage('Clone Repository') {
             steps {
                 // This pulls your GitHub code — set the correct repo in the Jenkins job
-                git 'https://github.com/somedjgitter/xyz.git'
+                git 'https://github.com/somedjgitter/somefiles.git'
             }
         }
 
